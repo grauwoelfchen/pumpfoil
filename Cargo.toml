@@ -1,0 +1,44 @@
+[package]
+name = "pumpfoil"
+description = """\
+A web browser application built with GTK, like surf.\
+"""
+version = "0.0.1"
+authors = ["Yasuhiro Яша Asaka <yasuhiro.asaka@grauwoelfchen.net>"]
+edition = "2021"
+readme = "README.md"
+homepage = "https://gitlab.com/grauwoelfchen/pumpfoil"
+documentation = "https://gitlab.com/grauwoelfchen/pumpfoil"
+repository = "https://gitlab.com/grauwoelfchen/pumpfoil"
+license = "GPL-3.0-or-later"
+keywords = ["gtk"]
+categories = ["gui"]
+
+autobins = false
+
+exclude = [
+  ".cargo-husky",
+  ".cargo",
+  "Makefile",
+  "rust-toolchain",
+  ".gitignore",
+  ".clippy.toml",
+  ".rustfmt.toml",
+  ".gitlab-ci.yml",
+  ".renovaterc.json",
+]
+
+[[bin]]
+name = "pumpfoil"
+
+[dependencies]
+gio = "^0.9"
+
+[dependencies.gtk]
+version = "^0.9"
+features = ["v3_16"]
+
+[dev-dependencies.cargo-husky]
+version = "1"
+default-features = false
+features = ["user-hooks"]
