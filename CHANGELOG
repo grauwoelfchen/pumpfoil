@@ -1,2 +1,9 @@
+Mon 21 Feb 2022 Yasuhiro Яша Asaka <yasuhiro.asaka@grauwoelfchen.net>
+	It works!
+
+	* Add Webkit's WebView (webkit2gtk-rs)
+
 Mon 14 Feb 2022 Yasuhiro Яша Asaka <yasuhiro.asaka@grauwoelfchen.net>
-	* Initial commit
+	Initial commit
+
+	* Add empty ApplicationWindow
