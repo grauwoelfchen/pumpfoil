@@ -6,6 +6,11 @@ surf](https://surf.suckless.org/).
 ![Screenshot](doc/img/pumpfoil.png?raw=true "Pumpfoil")
 
 
+## Requirements
+
+* webkit-gtk 4.1 (e.g. net-libs/webkit-gtk-2.38.5-r410 for `javascriptcoregtk-4.1`)
+
+
 ## Development
 
 ```zsh
