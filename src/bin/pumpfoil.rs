@@ -16,7 +16,9 @@ use webkit2gtk::traits::{
     WebViewExt,
 };
 
-const DEFAULT_URI: &str = "https://duckduckgo.com";
+// DevDocs (See a note about secure cookie on localhost)
+// const DEFAULT_URI: &str = "http://localhost:9292";
+const DEFAULT_URI: &str = "https://devdocs.io";
 const COOKIE_FILE: &str = "./cookie.txt";
 
 fn build_ui(app: &Application) {
