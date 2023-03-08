@@ -16,7 +16,7 @@ use webkit2gtk::traits::{
     WebViewExt,
 };
 
-// DevDocs (See a note about secure cookie on localhost)
+// DevDocs (See a note about secure cookies on localhost)
 // const DEFAULT_URI: &str = "http://localhost:9292";
 const DEFAULT_URI: &str = "https://devdocs.io";
 const COOKIE_FILE: &str = "./cookie.txt";
