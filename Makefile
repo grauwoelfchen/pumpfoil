@@ -135,7 +135,7 @@ package: # Create package
 .PHONY: package
 
 install:
-	@cargo install --force
+	@cargo install --path . --force
 .PHONY: install
 
 help: # Display this message
